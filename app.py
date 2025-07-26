@@ -16,8 +16,6 @@ year = st.selectbox("Your current year of Study", ["First Year", "Second Year", 
 
 cgpa = st.slider("Your CGPA", 0.0, 10.0, 8.29, step=0.01)
 
-marital_status = st.selectbox("Marital status", ["Single", "Married", "Divorced"])
-
 st.markdown("### 🧠 Mental Health Conditions")
 
 depression = st.radio("Do you have Depression?", ["Yes", "No"])
